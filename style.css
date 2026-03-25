@@ -1,0 +1,62 @@
+/* Default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Grid Layout for Container */
+#product-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* Product Card Styling */
+.product-card {
+    background: azure;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+
+/* Smooth Hover Animation */
+transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+/* Product Image */
+.product-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Product Name */
+.product-card h2 {
+    font-size: large;
+    margin: auto;
+}
+
+/* Product Price */
+.product-card p {
+    color: black;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    transform: scale(1.05); /*Enlarges the Card */
+    box-shadow: darkblue;
+}
