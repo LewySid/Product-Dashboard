@@ -31,7 +31,6 @@ header {
     padding: 15px;
     text-align: center;
     border-radius: 10px;
-
 /* Smooth Hover Animation */
 transition: transform 0.3s ease, box-shadow 0.3 ease;
 }

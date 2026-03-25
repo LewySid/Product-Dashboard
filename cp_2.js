@@ -4,7 +4,6 @@
 // API URL
 const url = "https://www.course-api.com/javascript-store-products";
 
-
 // Step 3: Create Function to Retrieve Data
 
 function fetchProductsThen() {
